@@ -6,14 +6,24 @@
   <link rel="stylesheet" href="./stylesheets/style.css">
 </head>
 <body>
-  <div class="overlay">
+  <div class="buttons">
+    <button id="makeMiddleEarth">Make Middle Earth</button>
+    <button id="makeHobbits">Make Hobbits</button>
+    <button id="keepItSecretKeepItSafe">Keep It Secret, Keep It Safe</button>
+    <button id="makeBuddies">Make Buddies</button>
+    <button id="beautifulStranger">Beautiful Stranger</button>
+    <button id="leaveTheShire">Leave the Shire</button>
+    <button id="forgeTheFellowShip">Forge the Fellowship</button>
+    <button id="theBalrog">The Balrog</button>
+    <button id="hornOfGondor">Horn of Gondor</button>
+    <button id="itsDangerousToGoAlone">It's Dangerous to Go Alone</button>
+    <button id="weWantsIt">We Wants It</button>
+    <button id="thereAndBackAgain">There and Back Again</button>
+    <button id="clickAll">Click All</button>
   </div>
+  <div class="overlay"></div>
   <audio id="nazgul-screech" src="./media/nazgul_screech.mp3"></audio>
-  <script charset="utf-8">
-    function nazgulScreech(){
-      document.getElementById("nazgul-screech").play();
-    }
-  </script>
-  <script src="./scripts/fellowship.js"></script>
+  <audio id="hobbit-theme" src="./media/hobbit_theme.mp3"></audio>
+  <script defer src="./scripts/fellowship.js"></script>
 </body>
 </html>
