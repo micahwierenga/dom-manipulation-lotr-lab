@@ -70,8 +70,7 @@ function makeHobbits() {
 function keepItSecretKeepItSafe() {
   // create a div with an id of 'the-ring'
   // give the div a class of 'magic-imbued-jewelry'
-  // add an event listener so that when a user clicks on the ring, the nazgulScreech 
-  // function (provided) is invoked
+  // add an event listener so that when a user clicks on the ring, the nazgulScreech function (provided) is invoked
   // add the ring as a child of Frodo
   const ringDiv = document.createElement('div');
   ringDiv.setAttribute('id', 'the-ring');
